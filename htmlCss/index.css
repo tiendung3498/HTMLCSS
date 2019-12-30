@@ -1,68 +1,75 @@
 @import url('https://fonts.googleapis.com/css?family=Neuton|Sacramento|Trade+Winds&display=swap');
 
 
-body{
-	margin: 0;
-	padding: 0;
-	overflow-x: hidden;
-}
-.banner{
-	width: 100%;
-	position: relative;
-	height: 850px;
-	background-image: url(img/banner.jpg);
-	background-size: cover;
-	background-position: center;
-	animation-delay: 3s;
-	animation: zoom 7s forwards;
-
-}
-@-webkit-keyframes zoom{
-   from{
-   transform: scale(1);
-   }
-   to{
-    transform: scale(1.05);
-   }
-}
-.header{
-	
-position: fixed;
-	
-width: 100%;
-	
-/* height: 100px; */
-	
-background-color: #ffff;
-	
-z-index: 1;
-	
-}
-.header-div{
-	width: 95%;
-	float: right;
-	position: relative;
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-.logo{
-	/* display: inline-block; */
-	position: absolute;
-}
-.logo img{
-	padding-top: 12px;
-	padding-bottom: 14px;
-}
-.menu{
-
-float: right;
-
-
-
-width: 60%;
-
+.banner {
+    width: 100%;
+    position: relative;
+    height: 850px;
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    animation-delay: 3s;
+    animation: zoom 7s forwards;
 
 }
-.list-menu{
+
+@-webkit-keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
+}
+
+.header {
+
+    position: fixed;
+
+    width: 100%;
+
+    /* height: 100px; */
+
+    background-color: #ffff;
+
+    z-index: 1;
+
+}
+
+.header-div {
+    width: 95%;
+    float: right;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+}
+
+.logo img {
+    padding-top: 12px;
+    padding-bottom: 14px;
+}
+
+.menu {
+
+    float: right;
+
+
+
+    width: 60%;
+
+
+}
+
+.list-menu {
     font-size: 18px;
     list-style: none;
     display: flex;
@@ -70,220 +77,257 @@ width: 60%;
     margin: 0;
     padding: 0;
 }
-.list-menu li{
-   line-height: 72px;
-   /* margin: 0; */
+
+.list-menu li {
+    line-height: 72px;
 }
-.list-menu-item a:hover{
-	background-color:#6eaa00 ;
-	color: #ffff;
+
+.list-menu-item a:hover {
+    background-color: #6eaa00;
+    color: #ffff;
 }
-.list-menu-link{
+
+.list-menu-link {
     padding: 26px 20px;
     margin: 0;
     text-decoration: none;
-    color : #878376;
+    color: #878376;
 }
 
-.home{
-	text-decoration: none;
-	color: #6eaa00;
-	padding: 26px 20px;
-	margin: 0;
-}
-.banner-text{
-	position: absolute;
-	z-index: 0;
-	top: 40%;
-	left: 8%;
-	color: #ffff;
-	width: 45%;
-	height: 460px;
-}
-.banner-text-h1{
-	margin: 0;
-	color: #ffff;
-	font-style: italic;	
-	font-size: 50px;
-	font-family: 'Trade Winds', cursive;
-}
-.banner-text-h2{
-	font-family: 'Neuton', serif;
-	font-size: 20px;
-	margin:30px 0px 60px; 
-
-}
-.banner-text-span{
-  	font-family: 'Trade Winds', cursive;
-    font-weight: bold;	
+.home {
+    text-decoration: none;
+    color: #6eaa00;
+    padding: 26px 20px;
+    margin: 0;
 }
 
-.banner-choose-button{
-	padding: 1rem 3rem;
-	font-size: 18px;
-	font-weight: 600;
-	color: white;
-	text-decoration: none;
-	background-color: rgb(110, 170, 0);
-	font-family: 'Neuton', serif;
+.banner-text {
+    position: absolute;
+    z-index: 0;
+    top: 40%;
+    left: 8%;
+    color: #ffff;
+    width: 45%;
+    height: 460px;
+}
+
+.banner-text-h1 {
+    margin: 0;
+    color: #ffff;
+    font-style: italic;
+    font-size: 50px;
+    font-family: 'Trade Winds', cursive;
+}
+
+.banner-text-h2 {
+    font-family: 'Neuton', serif;
+    font-size: 20px;
+    margin: 30px 0px 60px;
+
+}
+
+.banner-text-span {
+    font-family: 'Trade Winds', cursive;
+    font-weight: bold;
+}
+
+.banner-choose-button {
+    padding: 1rem 3rem;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(110, 170, 0);
+    font-family: 'Neuton', serif;
     display: inline-block;
-	border-radius: 30px;
-	word-spacing: 4px;
-	letter-spacing: 2px;
+    border-radius: 30px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
 
 }
-.banner-choose-button:hover{
-	background-color: #9ACD32;
-	
-}
-.section1{
-	position: relative;
-	width: 100%;
-	height: auto;
-	margin-top: 40px;
+
+.banner-choose-button:hover {
+    background-color: #9ACD32;
 
 }
-.section1-wrap{
-	margin-left: 12%;
-	display: flex;
-	flex-direction: row;
+
+.sectionBestFruit {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+
 }
-.section1-wrap-img{
+
+.sectionBestFruit-wrap {
+    margin-left: 12%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionBestFruit-wrap-imgPerson {
     padding: 0 5px;
     height: 150px;
 }
-.section1-img{
-	right: 60px;
-	top: -140px;
-	position: absolute;
-	z-index: 0;
+
+.sectionBestFruit-imgProduct {
+    right: 60px;
+    top: -140px;
+    position: absolute;
+    z-index: 0;
 }
-.section1-text{
-  	font-family: 'Trade Winds', cursive;
-  	font-size: 20px;
+
+.sectionBestFruit-text {
+    font-family: 'Trade Winds', cursive;
+    font-size: 20px;
     width: 35%;
-  	margin-left: 50px;
-  	display: flex;
-  	flex-direction: column;
-}
-.section1-textTitle p{
-	margin-bottom: -10px;
-
-	
-}
-.section1-textContent p{
- font-family: 'Neuton';
- font-size: 17px;
- color: #848484;
- margin-top: 8px;
-}
-.section1-person{
-	margin-bottom: 0;
-}
-.section1-person span{
-   font-family: Sacramento,cursive;
-   color: #6eaa00;
-   font-size: 30px;
-}
-.section2{
-	display: flex;
-	flex-direction: row;
-	width: 75%;
-	margin-top: 15px;
-	height: 475px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.section2-div{
-	/* position: relative; */
-	display: grid;
-	grid-template-columns: 330px 330px 330px;
-	width: 100%;
-	margin: 0;
-}
-.section2-div1,.section2-div2,.section2-div3{
-
-display: inline-block;
-
-background-image: url(img/section2-div1.jpg);
-
-background-size: cover;
-
-background-position: center;
-
-border-radius: 35px;
-
-margin : 17px;
-
-position: relative;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
-.section2-div2{
+.sectionBestFruit-textTitle p {
+    margin-bottom: -10px;
+
+
+}
+
+.sectionBestFruit-textContent p {
+    font-family: 'Neuton';
+    font-size: 17px;
+    color: #848484;
+    margin-top: 8px;
+}
+
+.sectionBestFruit-person {
+    margin-bottom: 0;
+}
+
+.sectionBestFruit-person span {
+    font-family: Sacramento, cursive;
+    color: #6eaa00;
+    font-size: 30px;
+}
+
+.sectionSale {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin-top: 15px;
+    height: 475px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sectionSale-Pr {
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    width: 100%;
+    margin: 0;
+}
+
+.sectionSale-Pr1,
+.sectionSale-Pr2,
+.sectionSale-Pr3 {
+
+    display: inline-block;
+
+    background-size: cover;
+
+    background-position: center;
+
+    border-radius: 35px;
+
+    margin: 17px;
+
+    position: relative;
+}
+.sectionSale-Pr1 {
+    background-image: url(img/section2-div1.jpg);
+}
+.sectionSale-Pr2 {
     background-image: url(img/section2-div2.jpg);
 }
-.section2-div3{
-	background-image: url(img/section2-div3.jpg);
+
+.sectionSale-Pr3 {
+    background-image: url(img/section2-div3.jpg);
 }
 
 
-.section2-div1 a:hover{
-	background-color: #6eaa00;
-	border : none;
+.sectionSale-Pr1 a:hover {
+    background-color: #6eaa00;
+    border: none;
 }
-.section2-div2 a:hover{
-	background-color: #6eaa00;
-	border : none;
-}
-.section2-div3 a:hover{
-	background-color: #6eaa00;
-	border : none;
-}
-.section2-div1 a,.section2-div2 a,.section2-div3 a{
-	text-decoration: none;
-	text-align: center;
-	border-radius: 30px;
-	border : 2px solid #ffff;
-	padding: 18px 44px;
-	color: #ffff;
-	display: inline-block;
 
-	position: absolute;
-	top: 313px;
-	left: 64px;
+.sectionSale-Pr2 a:hover {
+    background-color: #6eaa00;
+    border: none;
 }
-.section2-div1 h1,.section2-div2 h1,.section2-div3 h1{
-	font-family: 'Trade Winds', cursive;
-	left: 30px;
-	top: 90px;
-	color: #ffff;
-	text-align: center;
-	margin-top: 20px;
+
+.sectionSale-Pr3 a:hover {
+    background-color: #6eaa00;
+    border: none;
 }
-.section2-div1 h4,.section2-div2 h4,.section2-div3 h4{
-		text-align: center;
-	font-family: Neuton,serif;
-	font-size: 14px;
+
+.sectionSale-Pr1 a,
+.sectionSale-Pr2 a,
+.sectionSale-Pr3 a {
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid #ffff;
+    padding: 18px 44px;
+    color: #ffff;
+    display: inline-block;
+
+    position: absolute;
+    top: 313px;
+    left: 64px;
+}
+
+.sectionSale-Pr1 h1,
+.sectionSale-Pr2 h1,
+.sectionSale-Pr3 h1 {
+    font-family: 'Trade Winds', cursive;
+    left: 30px;
+    top: 90px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sectionSale-Pr1 h4,
+.sectionSale-Pr2 h4,
+.sectionSale-Pr3 h4 {
+    text-align: center;
+    font-family: Neuton, serif;
+    font-size: 14px;
     margin-top: 80px;
-	color: #ffff;
+    color: #ffff;
     letter-spacing: 0.2px;
 }
-.section2-div1 p,.section2-div2 p,.section2-div3 p{
-		color:#ffff;
-	font-size: 19px;
-	text-align: center;
+
+.sectionSale-Pr1 p,
+.sectionSale-Pr2 p,
+.sectionSale-Pr3 p {
+    color: #ffff;
+    font-size: 19px;
+    text-align: center;
 }
-.section3{
-	display: inline-block;
-	margin-top: 100px;
-	width: 100%;
-	height: 600px;
-	background-image: url(img/banner2.jpg);
-	background-position: center;
-	background-size: cover;
+
+.sectionJoin {
+    display: inline-block;
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    background-image: url(img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
 
 }
-.section3 h1{
-  	font-family: 'Trade Winds', cursive;
+
+.sectionJoin h1 {
+    font-family: 'Trade Winds', cursive;
     text-align: center;
     color: #ffff;
     font-size: 60px;
@@ -291,160 +335,197 @@ position: relative;
     margin-bottom: 0;
     margin: 0 auto;
 }
-.section3-content{
-	text-align: center;
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 150px;
+
+.sectionJoin-content {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
 }
-.section3-content p{
-	text-align: center;
-	color: #ffff;
-	font-size: 20px;
-	margin-bottom: 80px;
+
+.sectionJoin-content p {
+    text-align: center;
+    color: #ffff;
+    font-size: 20px;
+    margin-bottom: 80px;
 }
-.section3-content a{
-	padding: 20px 50px;
-	border-radius: 30px;
-	color: #ffff;
-	background-color: #6eaa00;
-	text-decoration: none;
-	font-family: 'Neuton';
-	font-weight: bold;
-	letter-spacing: 2px;
-	display: inline-block;
-	
-}
-.section3-content a:hover{
-	background-color: #876b5d;
-}
-.section4{
-	margin-top: 70px;
-}
-.section4-divproduct{
-	width: 74%;
-	margin-left: auto;
-	margin-right: auto;
-	display: flex;
-}
-.section4-product{
-   width: 100%;
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
-   display: grid;
-   grid-template-columns: 330px 330px 330px;
-   margin: 5px auto;
-}
-.product-image{
-	margin: 0;
-	overflow: hidden;
-}
-.product1, .product2, .product3{
-	
-	margin: 10px;
+
+.sectionJoin-content a {
+    padding: 20px 50px;
+    border-radius: 30px;
+    color: #ffff;
+    background-color: #6eaa00;
+    text-decoration: none;
+    font-family: 'Neuton';
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: inline-block;
 
 }
-.product1:hover{
-	color: #6eaa00;
+
+.sectionJoin-content a:hover {
+    background-color: #876b5d;
 }
-.product2:hover{
-	color: #6eaa00;
+
+.sectionProduct {
+    margin-top: 70px;
 }
-.product3:hover{
-	color: #6eaa00;
+
+.sectionProduct-divproduct {
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
-.product1:hover img{
-  transform: scale(1.1);
+
+.sectionProduct-product {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    margin: 5px auto;
 }
-.product2:hover img{
-  transform: scale(1.1);
+
+.product-image {
+    margin: 0;
+    overflow: hidden;
 }
-.product3:hover img{
-  transform: scale(1.1);
+
+.product1,
+.product2,
+.product3 {
+
+    margin: 10px;
+
 }
-.product1 img, .product2 img, .product3 img{
+
+.product1:hover {
+    color: #6eaa00;
+}
+
+.product2:hover {
+    color: #6eaa00;
+}
+
+.product3:hover {
+    color: #6eaa00;
+}
+
+.product1:hover img {
+    transform: scale(1.1);
+}
+
+.product2:hover img {
+    transform: scale(1.1);
+}
+
+.product3:hover img {
+    transform: scale(1.1);
+}
+
+.product1 img,
+.product2 img,
+.product3 img {
     width: 100%;
     padding: 2px;
     transition: 0.5s;
-	height: 232px;
+    height: 232px;
 }
-.section4-product h2{
-	font-family: 'Trade Winds', cursive;
+
+.sectionProduct-product h2 {
+    font-family: 'Trade Winds', cursive;
     text-align: center;
     margin-top: 42px;
-    letter-spacing:0;
+    letter-spacing: 0;
 }
-.section4-product h4{
-	text-align: center;
-	/*color: #848484;*/
+
+.sectionProduct-product h4 {
+    text-align: center;
 }
-.section5{
-	margin-top: 50px;
-	width: 100%;
+
+.sectionMap {
+    margin-top: 50px;
+    width: 100%;
 }
-.section4-title,.section5-title{
+
+.sectionProduct-title,
+.sectionMap-title {
     width: 100%;
     text-align: center;
 }
-.section5-title h1, .section4-title h1{
-	margin: 0;
-	font-family: 'Trade Winds', cursive;
-	letter-spacing: 2px;
+
+.sectionMap-title h1,
+.sectionProduct-title h1 {
+    margin: 0;
+    font-family: 'Trade Winds', cursive;
+    letter-spacing: 2px;
     color: #29220A;
     font-weight: 400;
     font-size: 30px;
 }
-.section5-banner{
-	position: relative;
-	width: 80%;
-	height: 425px;
-	margin-left: auto;
-	margin-right: auto;
-	background-image: url(img/apples-1.jpg);
-	background-size: cover;
-	background-position: center;
+
+.sectionMap-banner {
+    position: relative;
+    width: 80%;
+    height: 425px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(img/apples-1.jpg);
+    background-size: cover;
+    background-position: center;
 }
-.section5-banner img{
-	position: absolute;
-	z-index: 1;
-	top: 57px;
-	right: 57px;
-	height: 268px;
+
+.sectionMap-banner img {
+    position: absolute;
+    z-index: 1;
+    top: 57px;
+    right: 57px;
+    height: 268px;
 }
-.footer{
-	background-image: url(htmlCss/img/fruitseamless1-1.webp);
-	background-size: cover;
-	background-position: center;
-	height: 200px;
-	background-color: #3c322b;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	color: #ffff;
+
+.footer {
+    background-image: url(htmlCss/img/fruitseamless1-1.webp);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    background-color: #3c322b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #ffff;
 }
 
 .footer h4 {
-	color: #ffff;
+    color: #ffff;
 }
-.footer-div{
-	width: 300px;
-	text-align: left
+
+.footer-div {
+    width: 300px;
+    text-align: left
 }
-.footer ul{
-	list-style: none;
+
+.footer ul {
+    list-style: none;
 }
-.footer h4{
-	font-family: 'Trade Winds', cursive;
+
+.footer h4 {
+    font-family: 'Trade Winds', cursive;
     margin-top: 30px;
 }
-.footer p{
-	font-size: 14px;
-}
-.footer li:hover{
-	color: #6eaa00;
-}
-.footer li{
+
+.footer p {
 	color: #8b8582;
+    font-size: 14px;
+}
+
+.footer li a:hover {
+    color: #6eaa00;
+}
+
+.footer li a {
+    color: #8b8582;
+    text-decoration: none;
 }
