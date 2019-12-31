@@ -480,7 +480,7 @@ body {
 
 .sectionMap-banner img {
     position: absolute;
-    z-index: 1;
+    z-index: 0;
     top: 57px;
     right: 57px;
     height: 268px;
