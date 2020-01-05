@@ -19,16 +19,6 @@ body {
 
 }
 
-@-webkit-keyframes zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.05);
-    }
-}
-
 .header {
 
     position: fixed;
@@ -59,18 +49,12 @@ body {
 }
 
 .menu {
-
     float: right;
-
-
-
     width: 60%;
-
-
 }
 
 .list-menu {
-    font-size: 18px;
+    font-size: 1.1rem;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -158,6 +142,253 @@ body {
     margin-top: 40px;
 
 }
+@media only screen and (min-width: 320px) and (max-width: 374px){
+    .menu{
+        width: 65%;
+
+    }
+    .banner{
+        width: 320%;
+    }
+    .list-menu{
+        font-size: 12px;
+    }
+    .sectionBestFruit{
+        width: 300%;
+    }
+    .sectionBestFruit-imgProduct{
+        position: absolute;
+        top: -140px;
+        right: 10px;
+    }
+    .sectionSale{
+        width: 317%;
+    }
+    .sectionJoin{
+        width: 328%;
+    }
+
+    .sectionProduct{
+        width: 317%;
+    }
+    .sectionMap{
+        width: 320%;
+    }
+    .sectionProduct-divproduct{
+        width: 82%;
+    }
+    .footer{
+        width: 320%;
+    }
+
+}
+@media (max-width: 319px){
+        .menu{
+        width: 65%;
+
+    }
+    .banner{
+        width: 320%;
+    }
+    .list-menu{
+        font-size: 4px;
+    }
+    .sectionBestFruit{
+        width: 300%;
+    }
+    .sectionBestFruit-imgProduct{
+        position: absolute;
+        top: -140px;
+        right: 10px;
+    }
+    .sectionSale{
+        width: 317%;
+    }
+    .sectionJoin{
+        width: 328%;
+    }
+
+    .sectionProduct{
+        width: 317%;
+    }
+    .sectionMap{
+        width: 320%;
+    }
+    .sectionProduct-divproduct{
+        width: 82%;
+    }
+    .footer{
+        width: 320%;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 424px){
+    .menu{
+        width: 65%;
+
+    }
+    .banner{
+        width: 320%;
+    }
+    .list-menu{
+        font-size: 15px;
+    }
+    .sectionBestFruit{
+        width: 300%;
+    }
+    .sectionBestFruit-imgProduct{
+        position: absolute;
+        top: -140px;
+        right: 10px;
+    }
+    .sectionSale{
+        width: 317%;
+    }
+    .sectionJoin{
+        width: 328%;
+    }
+
+    .sectionProduct{
+        width: 317%;
+    }
+    .sectionMap{
+        width: 320%;
+    }
+    .sectionProduct-divproduct{
+        width: 82%;
+    }
+    .footer{
+        width: 320%;
+    }
+
+}
+@media only screen and (min-width: 425px) and (max-width: 767px){
+    .menu{
+        width: 65%;
+
+    }
+    .banner{
+        width: 320%;
+    }
+    .list-menu{
+        font-size: 15px;
+    }
+    .sectionBestFruit{
+        width: 300%;
+    }
+    .sectionBestFruit-imgProduct{
+        position: absolute;
+        top: -140px;
+        right: 10px;
+    }
+    .sectionSale{
+        width: 317%;
+    }
+    .sectionJoin{
+        width: 328%;
+    }
+
+    .sectionProduct{
+        width: 317%;
+    }
+    .sectionMap{
+        width: 320%;
+    }
+    .sectionProduct-divproduct{
+        width: 82%;
+    }
+    .footer{
+        width: 320%;
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .menu{
+        width: 65%;
+
+    }
+    .banner{
+        width: 320%;
+    }
+    .list-menu{
+        font-size: 15px;
+    }
+    .sectionBestFruit{
+        width: 300%;
+    }
+    .sectionBestFruit-imgProduct{
+        position: absolute;
+        top: -140px;
+        right: 10px;
+    }
+    .sectionSale{
+        width: 317%;
+    }
+    .sectionJoin{
+        width: 328%;
+    }
+
+    .sectionProduct{
+        width: 317%;
+    }
+    .sectionMap{
+        width: 320%;
+    }
+    .sectionProduct-divproduct{
+        width: 82%;
+    }
+    .footer{
+        width: 320%;
+    }
+
+}
+@media only screen and (min-width: 1024px) and (max-width: 1349px){
+    .menu{
+        width: 65%;
+
+    }
+    .banner{
+        width: 100%;
+    }
+    .list-menu{
+        font-size: 13px;
+    }
+    .sectionBestFruit{
+        width: 100%;
+    }
+    .sectionBestFruit-imgProduct{
+        position: absolute;
+        top: -140px;
+        right: 10px;
+    }
+    .sectionSale{
+        width: 100%;
+    }
+    .sectionJoin{
+        width: 100%;
+    }
+
+    .sectionProduct{
+        width: 100%;
+    }
+    .sectionMap{
+        width: 100%;
+    }
+    .sectionProduct-divproduct{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+
+
+}
+@media  (min-width: 1440px){
+    .sectionJoin{
+        width: 100%;
+    }
+}
+
+
 
 .sectionBestFruit-wrap {
     margin-left: 12%;
@@ -221,7 +452,7 @@ body {
 
 .sectionSale-Pr {
     display: grid;
-    grid-template-columns: 330px 330px 330px;
+    grid-template-columns: 33% 33% 33%;
     width: 100%;
     margin: 0;
 }
@@ -239,8 +470,7 @@ body {
     border-radius: 35px;
 
     margin: 17px;
-
-    position: relative;
+    text-align: center;
 }
 .sectionSale-Pr1 {
     background-image: url(img/section2-div1.jpg);
@@ -279,10 +509,7 @@ body {
     padding: 18px 44px;
     color: #ffff;
     display: inline-block;
-
-    position: absolute;
-    top: 313px;
-    left: 64px;
+    margin-top: 70px;
 }
 
 .sectionSale-Pr1 h1,
@@ -316,9 +543,9 @@ body {
 }
 
 .sectionJoin {
+    width: 100%;
     display: inline-block;
     margin-top: 100px;
-    width: 100%;
     height: 600px;
     background-image: url(img/banner2.jpg);
     background-position: center;
@@ -385,7 +612,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: 330px 330px 330px;
+    grid-template-columns: 33% 33% 33%;
     margin: 5px auto;
 }
 
@@ -448,7 +675,6 @@ body {
 
 .sectionMap {
     margin-top: 50px;
-    width: 100%;
 }
 
 .sectionProduct-title,
