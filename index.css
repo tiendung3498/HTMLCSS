@@ -18,6 +18,10 @@ body {
     animation: zoom 7s forwards;
 
 }
+@keyframes zoom{
+    from{ transform: scale(1); }
+    to{ transform: scale(1.05); }
+}
 
 .header {
 
