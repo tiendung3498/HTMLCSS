@@ -40,9 +40,7 @@ body {
     position: fixed;
 
     width: 100%;
-
-    /* height: 100px; */
-
+    box-sizing: border-box;
     background-color: #ffff;
 
     z-index: 1;
@@ -50,14 +48,12 @@ body {
 }
 
 .header-div {
-    width: 95%;
-    float: right;
-    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.logo {
-    position: absolute;
-}
+
 
 .logo img {
     padding-top: 12px;
@@ -92,6 +88,39 @@ body {
     margin: 0;
     text-decoration: none;
     color: #878376;
+}
+
+.toggleArea {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+
+}
+
+#toggle {
+    display: none;
+}
+
+.toggleArea label {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.toggleArea label span {
+    background-color: black;
+    height: 3px;
+    width: 70%;
+    margin: 2px 0px;
+
 }
 
 .home {
@@ -165,7 +194,7 @@ body {
 
 /*
 .sectionBestFruit {
-   
+
     width: 100%;
     height: auto;
     margin-top: 40px;
@@ -557,7 +586,6 @@ body {
         height: 200px;
         top: -60px;
     }
-
     .sectionSale-Pr1 h1,
     .sectionSale-Pr2 h1,
     .sectionSale-Pr3 h1 {
@@ -600,16 +628,17 @@ body {
     .list-menu {
         font-size: 9px;
     }
+
     .sectionBestFruit-text {
         font-size: 15px;
     }
 
     .sectionBestFruit-text p {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .sectionBestFruit-text {
-        width: 37%;
+        width: 42%;
     }
 
     .sectionBestFruit-wrap-imgPerson {
@@ -671,21 +700,44 @@ body {
         height: 200px;
         right: 20px;
     }
-
     .footer h4 {
         font-size: 14px;
     }
-
     .footer li a {
         font-size: 10px;
     }
-
-
-
 }
-
 @media (max-width: 414px) {
+    .menu {
+        position: fixed;
+        top: 10%;
+        left: 0;
+        width: 100%;
+        height: 0px;
+        overflow: hidden;
+        transition: all 0.5s;
+    }
 
+    .toggleArea {
+        display: block;
+    }
+
+    #toggle:checked~.menu {
+        height: 400px;
+        background-color: white;
+    }
+    .list-menu {
+        flex-direction: column;
+    }
+
+    .list-menu li {
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .list-menu li a {
+        font-size: 20px;
+    }
 
     .sectionBestFruit-wrap {
         flex-direction: column;
