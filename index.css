@@ -21,6 +21,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     animation: zoom 7s forwards;
+    animation-delay: 0.5s;
 }
 
 @keyframes zoom {
@@ -34,13 +35,10 @@ body {
 }
 
 .header {
-
     position: fixed;
-
     width: 100%;
     box-sizing: border-box;
     background-color: #ffff;
-
     z-index: 1;
 
 }
@@ -67,10 +65,10 @@ body {
 }
 
 .list-menu {
-    font-size: 1.1rem;
+    font-size: 14px;
     list-style: none;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
 }
@@ -174,12 +172,12 @@ body {
 
 .banner-choose-button:hover {
     background-color: #9ACD32;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
 
 }
 
 .sectionBestFruit {
     max-width: 1200px;
-    /*background-color: red;*/
     margin: 0 auto;
 }
 
@@ -355,10 +353,12 @@ body {
     font-weight: bold;
     letter-spacing: 2px;
     display: inline-block;
+
 }
 
 .sectionJoin-content a:hover {
     background-color: #876b5d;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
 }
 
 .sectionProduct {
@@ -502,7 +502,7 @@ body {
     text-decoration: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1057px) {
     .banner-text-h1 {
         font-size: 40px;
     }
@@ -559,15 +559,24 @@ body {
     }
 
     .list-menu {
-        font-size: 15px;
+        font-size: 11px;
     }
 }
 
 @media (max-width: 800px) {
+  .logo{
+    width: 150px;
+  }
+  .logo img{
+    max-width: 100%;
+    padding-top: 18px;
+  }
     .list-menu {
         font-size: 9px;
     }
-
+  .list-menu-item a{
+  padding: 26px 11px;
+}
     .sectionBestFruit-text {
         font-size: 15px;
     }
@@ -648,6 +657,11 @@ body {
     .footer li a {
         font-size: 10px;
     }
+}
+@media (min-width: 501px ) and (max-width: 560px){
+  .list-menu{
+    font-size: 7px;
+  }
 }
 
 @media (max-width: 500px) {
